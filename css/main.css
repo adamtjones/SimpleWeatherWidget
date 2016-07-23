@@ -1,0 +1,11 @@
+.widget {
+  border: 2px solid gray;
+  border-radius: 3px;
+  text-align: center;
+  height: 75%;
+  width: 50%;
+  margin: auto;
+  display: block;
+  background-color: #E8E8E8;
+  color: black;
+  font-family: Source Sans Pro; }

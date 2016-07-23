@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="taco">
+	<head>
+		<!--Google Font-->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+		<title>Weather Widget</title>
+		<!--Bootstrap CDN-->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!--CSS Reset-->
+		<link href="reset.css">
+		<!--CSS style sheet-->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!--Angular-->
+		<script src="/node_modules/angular/angular.js"></script>
+		<script src="/node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+	</head>
+	<body>
+		
+		<h2 class="headline">Weather & Information by City</h2>
+		
+		<weather city="Cincinnati"></weather>
+		
+	<!--link to JS file-->
+	<script src="js/main.js"></script>
+	<script src="js/weather.js"></script>
+	<script src="js/directives/weatherDirective.js"></script>
+	<script src="js/controllers/home.js"></script>
+</body>
+</html>
